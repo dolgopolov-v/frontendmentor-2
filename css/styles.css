@@ -1,18 +1,19 @@
 body {
-background-image: url("/Users/vladimir/Desktop/Udemy/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg");
-background-repeat: no-repeat;
-background-color: hsl(257, 40%, 49%);
-color: white;
+  background-image: url("/Users/vladimir/Desktop/Udemy/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  color: white;
 }
+
 nav {
   margin: 55px 55px;
 }
 
 h1 {
   font-family: 'Poppins', sans-serif;
-font-weight: 400;
-line-height: 1.4;
-margin-top: 50px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-top: 50px;
 }
 
 p {
@@ -23,11 +24,17 @@ p {
 }
 
 .nav-image {
-width: 80%;
+  width: 80%;
 }
+
 .first-row {
   margin: 0 45px;
 }
+
 .mockup-image {
   width: 95%;
+}
+
+.btn {
+  border-radius: 30px;
 }
