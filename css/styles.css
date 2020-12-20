@@ -36,7 +36,25 @@ p {
 }
 
 .btn {
-  border-radius: 30px;
-  font-family: 'Open Sans', sans-serif;
+  /* border-radius: 30px; */
+  width: 180px;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  font-size: 1rem;
+  color: hsl(257, 40%, 49%);
+  border: 0;
+  margin-top: 20px;
+}
+
+.social-icons {
+  /* margin: 20px; */
+  font-size: 20px;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.social {
+  text-align: right;
 }
