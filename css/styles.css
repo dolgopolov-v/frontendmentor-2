@@ -48,13 +48,21 @@ p {
 }
 
 .social-icons {
-  /* margin: 20px; */
+  margin: 7px;
   font-size: 20px;
   border-radius: 50%;
   border: 1px solid white;
   padding: 10px;
+  text-align: center;
+}
+
+.fa-facebook-f {
+  width: 42px;
+  height: 42px;
 }
 
 .social {
   text-align: right;
+  margin-right: 80px;
+  margin-top: 30px;
 }
