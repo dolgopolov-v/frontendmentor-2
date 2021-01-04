@@ -3,28 +3,49 @@ body {
   background-repeat: no-repeat;
   background-color: hsl(257, 40%, 49%);
   color: white;
+  font-weight: 400;
 }
 
-nav {
-  margin: 55px 55px;
+@media (max-width: 992px) {
+  body {
+    background-image: url("/Users/vladimir/Desktop/Udemy/huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg");
+  }
 }
+
+/* Navbar Section */
+
+nav {
+  margin: 55px;
+}
+
+.nav-image {
+  width: 80%;
+}
+
+/* Main Section */
 
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
   line-height: 1.4;
   margin-top: 50px;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
   padding-right: 55px;
   margin-top: 30px;
 }
 
-.nav-image {
-  width: 80%;
+@media (max-width: 992px) {
+  p {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .col-lg-5 {
+    text-align: center;
+  }
 }
 
 .first-row {
@@ -35,21 +56,27 @@ p {
   width: 95%;
 }
 
+/* Button */
+
 .btn {
   width: 180px;
+  height: 50px;
   background-color: white;
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
   font-size: 1rem;
   color: hsl(257, 40%, 49%);
   border: 0;
   margin-top: 20px;
 }
+
 .btn:hover {
   background-color: hsl(300, 69%, 71%);
 }
 
-.social-icons {
+
+/* Social Icons Section */
+
+.fab {
   margin: 7px;
   font-size: 20px;
   border-radius: 50%;
@@ -57,7 +84,8 @@ p {
   padding: 10px;
   text-align: center;
 }
-.social-icons:hover {
+
+.fab:hover {
   color: hsl(300, 69%, 71%);
   border: 1px solid hsl(300, 69%, 71%);
 }
@@ -71,4 +99,22 @@ p {
   text-align: right;
   margin-right: 80px;
   margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+  .social {
+    text-align: center;
+    margin: 50px auto;
+  }
+}
+
+/* Footer */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: white;
 }
