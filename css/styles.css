@@ -76,36 +76,6 @@ p {
 
 /* Social Icons Section */
 
-/* .fab {
-  width: 42px;
-  height: 42px;
-  margin: 7px;
-  font-size: 20px;
-  border-radius: 50%;
-  border: 1px solid white;
-  padding: 10px;
-  text-align: center;
-}
-
-.fab:hover {
-  color: hsl(300, 69%, 71%);
-  border: 1px solid hsl(300, 69%, 71%);
-}
-
-
-.social {
-  text-align: right;
-  margin-right: 80px;
-  margin-top: 30px;
-}
-
-@media (max-width: 992px) {
-  .social {
-    text-align: center;
-    margin: 50px auto;
-  }
-} */
-
 .social {
   text-align: right;
   margin-right: 80px;
