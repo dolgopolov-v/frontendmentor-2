@@ -13,7 +13,6 @@ body {
 }
 
 /* Navbar Section */
-
 nav {
   margin: 55px;
 }
@@ -23,7 +22,6 @@ nav {
 }
 
 /* Main Section */
-
 h1 {
   font-family: 'Poppins', sans-serif;
   line-height: 1.4;
@@ -57,7 +55,6 @@ p {
 }
 
 /* Button */
-
 .btn {
   width: 180px;
   height: 50px;
@@ -73,9 +70,7 @@ p {
   background-color: hsl(300, 69%, 71%);
 }
 
-
 /* Social Icons Section */
-
 .social {
   text-align: right;
   margin-right: 80px;
@@ -99,15 +94,17 @@ p {
   font-size: 20px;
   background: none;
   color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social button:hover {
-    color: hsl(300, 69%, 71%);
-    border: 1px solid hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
+  border: 1px solid hsl(300, 69%, 71%);
 }
 
 /* Footer */
-
 .attribution {
   font-size: 11px;
   text-align: center;
